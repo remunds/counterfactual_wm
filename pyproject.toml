@@ -1,0 +1,19 @@
+[project]
+name = "counterfactual-wm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "distrax>=0.1.5",
+    "flax>=0.10.2",
+    "gymnax>=0.0.8",
+    "ipdb>=0.13.13",
+    "jax[cuda12]>=0.4.37",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
