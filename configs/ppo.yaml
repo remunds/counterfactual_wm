@@ -1,0 +1,16 @@
+lr: 2.5e-4
+num_envs: 4
+num_steps: 128
+total_timesteps: 5.0e+10
+update_epochs: 4
+num_minibatches: 4
+gamma: 0.99
+gae_lambda: 0.95
+clip_eps: 0.2
+ent_coef: 0.01
+vf_coef: 0.5
+max_grad_norm: 0.5
+activation: tanh
+env_name: CartPole-v1
+anneal_lr: true
+debug: true
